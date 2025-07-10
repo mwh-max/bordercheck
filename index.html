@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BorderCheck</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="container">
+    <h1>BorderCheck</h1>
+    <p class="intro">
+      Select a browser extension below to reveal its trace score and surveillance posture.
+    </p>
+
+    <label for="toolSelect">Choose Extension:</label>
+    <select id="toolSelect">
+      <option value="">Select one...</option>
+      <option value="SignalRoot">SignalRoot</option>
+      <option value="PatternShade">PatternShade</option>
+      <option value="EchoForm">EchoForm</option>
+    </select>
+
+    <p class="caption">Note: These are fictional extensions designed to illustrate surveillance behaviors.</p>
+    
+    <div id="results" class="hidden"></div>
+
+    <section id="scoreLegend" class="legend-box" aria-labelledby="legendTitle">
+    <h3 id="legendTitle">Trace Score Legend</h3>
+  <ul>
+    <li><strong>0</strong> 🟥 <em>Opaque Trace</em>: No visibility into consent or telemetry. High emotional risk</li>
+    <li><strong>1–2</strong> 🟠 <em>Active Surveillance</em>: Limited transparency, silent updates. Pattern exposure likely</li>
+    <li><strong>3–4</strong> 🟡 <em>Consent Optional</em>: Prompted permission, partial trace visibility. Moderate inference risk</li>
+    <li><strong>5</strong> 🟢 <em>Transparent Use</em>: Full opt-in control, visible telemetry. Emotionally safe</li>
+  </ul>
+</section>
+
+<p class="disclaimer">
+  BorderCheck explores concepts, not real tools.
+</p>
+
+  </main>
+
+  <script src="main.js" type="module"></script>
+</body>
+</html>

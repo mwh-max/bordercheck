@@ -1,0 +1,44 @@
+{
+  "SignalRoot": {
+    "jurisdiction": "CA",
+    "consent": "Granular opt-in",
+    "update": "Auditable versioning",
+    "trace": "Full transparency",
+    "emotional": "No behavioral modeling",
+    "scores": {
+      "jurisdiction": 1,
+      "consent": 1,
+      "update": 1,
+      "trace": 1,
+      "emotional": 1
+    }
+  },
+  "PatternShade": {
+    "jurisdiction": "US",
+    "consent": "Partial prompt",
+    "update": "Silent metadata refresh",
+    "trace": "Obscured analytics",
+    "emotional": "Interaction-level modeling",
+    "scores": {
+      "jurisdiction": 1,
+      "consent": 0,
+      "update": 0,
+      "trace": 0,
+      "emotional": 1
+    }
+  },
+  "EchoForm": {
+    "jurisdiction": "Global CDN",
+    "consent": "User-agreement toggle",
+    "update": "Background sync",
+    "trace": "Anonymized metrics",
+    "emotional": "Ambient pattern learning",
+    "scores": {
+      "jurisdiction": 0,
+      "consent": 1,
+      "update": 0,
+      "trace": 1,
+      "emotional": 1
+    }
+  }
+}
