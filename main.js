@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "Transparent Use": "zone-green",
     "Consent Optional": "zone-yellow",
     "Active Surveillance": "zone-orange",
-    "Opaque Trace": "zone-red"
+    "Opaque Trace": "zone-red",
   };
 
   const traceZone = (score) => {
